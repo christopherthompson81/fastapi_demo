@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+fastapi = {extras = ["all"],version = "*"}
+sqlalchemy = "*"
+pyjwt = "*"
+passlib = {extras = ["bcrypt"],version = "*"}
+configparser = "*"
+psycopg2-binary = "*"
+validate-email = "*"
+
+[requires]
+python_version = "3.7"
